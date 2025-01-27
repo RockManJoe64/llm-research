@@ -4,6 +4,20 @@ Collection of Jupyter notebooks where I investigate playing around with local LL
 
 ## Running on MacOS
 
+### Starting up Ollama
+
+First install [Ollama](https://github.com/ollama/ollama?tab=readme-ov-file#macos) onto your Mac machine.
+
+Once installed, startup a local Llama 3.2 instance, which is the 3.2B parameter model.
+
+```bash
+ollama run llama3.2
+```
+
+[Here is a list of available models](https://github.com/ollama/ollama?tab=readme-ov-file#model-library).
+
+### Running Jupyter Notebook
+
 When running the `ollama-llama3.2.ipnyb` notebook, do the following to setup your environment.
 
 1. Ensure you have installed the latest version of Python 3. You can install via homebrew
